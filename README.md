@@ -14,6 +14,7 @@ Part of Beanscan Suite of tools. See beanscan repository.
 
 ## Parallelism
 Number of concurrency can be set using the -c flag. It uses 25 threads by default.
+Recommend lowering the concurrency if time is not an issue.
 
 ```
 cat domains.txt | dirbean -w ~/wordlist/common.txt -c 10
