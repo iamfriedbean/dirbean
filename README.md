@@ -1,5 +1,7 @@
 # dirbean
-No-fuss Web Path Discovery tool
+No-fuss Web Path Discovery tool.
+Simple yet effective with built-in WAF evasion techniques.
+
 ## Basic Usage
 ```
 cat domains.txt | dirbean -w ~/wordlist/common.txt
@@ -16,4 +18,5 @@ Number of concurrency can be set using the -c flag. It uses 25 threads by defaul
 ```
 cat domains.txt | dirbean -w ~/wordlist/common.txt -c 10
 ```
-
+## Important Note
+As with any path discovery tool, this requires a good wordlist.
